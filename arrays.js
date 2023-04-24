@@ -43,8 +43,42 @@
 
 // Método Every
 
-var numeros = [10, 6, 8, 9]; // Se utiliza para saber si todos los elementos de un arreglo cumplen con una condicion determinada.
-var cumplenCondicion = numeros.every((num) => {
-    return num > 5;
-});
-console.log(cumplenCondicion);
+// var numeros = [10, 6, 8, 9]; // Se utiliza para saber si todos los elementos de un arreglo cumplen con una condicion determinada.
+// var cumplenCondicion = numeros.every((num) => {
+//     return num > 5;
+// });
+// console.log(cumplenCondicion);
+
+
+// Método Split
+
+// var palabra = "Henri";
+// var palabraSeparada = palabra.split(""); ///Con las 2 comillas le indicamos al método que queremos que separe la palabra en cada letra o caracter.
+// palabraSeparada.pop(); // Para eliminar la ultima palabra usamos .pop
+// palabraSeparada.push("y"); // Para agregar una palabra al final usamos .push
+// // console.log(palabraSeparada);
+// var palabraArreglada = palabraSeparada.join(''); // Al usar las 2 '' le indiicamos al método juntar todos los caracteres.
+// console.log(palabraArreglada);
+
+
+
+// Método .forEach
+// var numeros = [1, 2, 3, 4];
+// numeros.forEach((num) => console.log(num)); // Este método nos muestra cada numero por separado.
+// numeros.forEach((num) => {    //Aqui lo usamos para que nos imprimas solo los caracteres iguales a 3.
+//     if (num === 3) {
+//         console.log(num)}
+//     });          // Este método solo realiza alguna accion sobre el arreglo que especificamos, pero no generará NINGÚN cambio.
+
+
+// Método .map
+// var masUno = numeros.map((num) => { 
+//     return num + 1;
+// });
+// console.log(masUno);
+
+// En resumen, los métodos SPLIT Y JOIN nos permiten transformar 'strings' en arreglos y viceversa.
+// El método forEach nos permite recorrer elemento por elemento y el método Map lo mismo, pero con la diferencia
+// de que el metodo map crea una copia del arreglo y permite realizar cambios.
+
+
