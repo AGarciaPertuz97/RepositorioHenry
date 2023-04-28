@@ -26,4 +26,3 @@
 // console.log(arr);
 
 // En resumen, el bucle For trabaja con un número determinado de repeticiones, en camvbio el bucle While trabaja por una condición específica.
-
